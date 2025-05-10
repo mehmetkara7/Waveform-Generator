@@ -57,7 +57,6 @@ module wave_gen(
                     end
                     wave_out <= counter;
                 end
-
                 // Kare Dalga (Square)
                 SQUARE: begin
                     counter <= counter + 1;
